@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img src="page1_1.jpg" alt="" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="page2_1.jpg" alt="" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="page3_1.jpg" alt="" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
